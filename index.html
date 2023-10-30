@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<head> 
+    <title>web using bootstrap</title>
+    <!--css file connection-->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!--js file connect using script tag-->
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/737c651ad7.js" crossorigin="anonymous"></script>
+    <!--3 cdns from doc -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</head>
+<body class="p-3">
+    <!--1.navbar-->
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-sm-3 mt-3" >
+                <img src="https://www.yudaah.com/demo/organic-agri/images/organic-agri-low-resolution-logo-color-on-transparent-background.png" class="img-fluid w-75" id="nav-img">
+            </div>
+            <div class="col-lg-7 col-sm-6 mt-3" >
+                <ul type="none" id="navbar-med">
+                    <li class="d-inline-block font-weight-bold" style="margin-left: 0px;font-size: 20px;">Home</li>
+                    <li class="d-inline-block font-weight-bold" style="margin-left: 15px;font-size: 20px;">About Us</li>
+                    <li class="d-inline-block font-weight-bold" style="margin-left: 15px;font-size: 20px;">Products</li>
+                    <li class="d-inline-block font-weight-bold" style="margin-left: 15px;font-size: 20px;">Services</li>
+                    <li class="d-inline-block font-weight-bold" style="margin-left: 15px;font-size: 20px;">Blog</li>
+                    <li class="d-inline-block font-weight-bold" style="margin-left: 15px;font-size: 20px;">Contact Us</li>
+                </ul>
+            </div>
+            <div class="col-lg-2 col-sm-2 mt-2">
+                <button  id=nav-btn class="btn btn-outline-success" style="margin-left: 20px;border-radius:0px ;margin-right: 10px;font-weight: bold;font-size: 15px;margin-top: 10px;" <span><i class="fa-solid fa-basket-shopping" style="margin-left: 10px; margin-right: 10px;;"></i></span>Cart (1)</button>
+            </div>
+        </div>
+     </div>
+     <!--2.slider-->
+     <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+             <div id="car" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                    <li data-target="#car" data-slide-to="0"></li>
+                    <li data-target="#car" class="active" data-slide-to="1"></li>
+                    <li data-target="#car" data-slide-to="2"></li>
+                    
+                </ul>
+                <div class="carousel-inner">
+                    <div class="carousel-item ">
+                        <img src="https://www.yudaah.com/demo/organic-agri/images/ad3.png" style="margin-left: 10%;margin-right:10%;width:80%;margin-top: 20px;">
+                    </div>
+                    <div class="carousel-item active ">
+                        <img src="https://www.yudaah.com/demo/organic-agri/images/ad2.png" style="margin-left: 10%;margin-right:10%;width:80%;margin-top: 20px;" >
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="https://www.yudaah.com/demo/organic-agri/images/ad1.png" style="margin-left: 10%;margin-right:10%;width:80%;margin-top: 20px;" >
+                    
+                    </div>
+                </div>
+                <button class="btn btn-outline-success carousel-control-prev" data-target="#car" data-slide="prev"> Prev slide</button>
+                <button class="btn btn-outline-success carousel-control-next" data-target="#car" data-slide="next"> next slide</button>       
+            </div>
+        </div>
+        </div>
+        <!--3.Category-->
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <h3 class="text-center text-dark text-uppercase">Category</h3>
+                </div>
+                <div class="col-12">
+                    <h2 class="text-center text-success">Shop By Category</h2>
+                </div>
+                <!--figures-->
+                <div class="col-4 mt-5">
+                    <figure class="figure">
+                        <img src="https://www.yudaah.com/demo/organic-agri/images/category/c1.jpg" class="figure-img img-fluid rounded" alt="..." style="margin-left: 50px;" id="fig-1">
+                        <figcaption class="figure-caption text-dark font-weight-bold" style="margin-left: 60px;">Vegitables - (12)</figcaption>
+                      </figure>
+                </div>
+                <div class="col-4 mt-5">
+                    <figure class="figure">
+                        <img src="https://yudaah.com/demo/organic-agri/images/category/c2.jpg" class="figure-img img-fluid rounded" alt="..." style="margin-left: 50px;">
+                        <figcaption class="figure-caption text-dark font-weight-bold" style="margin-left: 60px;">Agriculture Items - (12)</figcaption>
+                      </figure>
+                </div>
+                <div class="col-4 mt-5">
+                    <figure class="figure">
+                        <img src="https://yudaah.com/demo/organic-agri/images/category/c3.jpg" class="figure-img img-fluid rounded" alt="..." style="margin-left: 50px;">
+                        <figcaption class="figure-caption text-dark font-weight-bold" style="margin-left: 60px;">Milk Products - (12)</figcaption>
+                      </figure>
+                </div> <!--figures-->
+                <div class="col-4 mt-5">
+                    <figure class="figure">
+                        <img src="https://www.yudaah.com/demo/organic-agri/images/category/c4.jpg" class="figure-img img-fluid rounded" alt="..." style="margin-left: 50px;">
+                        <figcaption class="figure-caption text-dark font-weight-bold" style="margin-left: 60px;">Vegitables - (12)</figcaption>
+                      </figure>
+                </div>
+                <div class="col-4 mt-5">
+                    <figure class="figure">
+                        <img src="https://www.yudaah.com/demo/organic-agri/images/category/c5.png" class="figure-img img-fluid rounded" alt="..." style="margin-left: 50px;">
+                        <figcaption class="figure-caption text-dark font-weight-bold" style="margin-left: 60px;">Agriculture Items - (12)</figcaption>
+                      </figure>
+                </div>
+                <div class="col-4 mt-5">
+                    <figure class="figure">
+                        <img src="https://www.yudaah.com/demo/organic-agri/images/category/c6.png" class="figure-img img-fluid rounded" alt="..." style="margin-left: 50px;">
+                        <figcaption class="figure-caption text-dark font-weight-bold" style="margin-left: 60px;">Milk Products - (12)</figcaption>
+                      </figure>
+                </div>
+            </div>
+        </div>
+        <!--4.popular products-->
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <div class="col-12 ">
+                    <h3 class="text-center text-success ">OUR SHOP</h3>
+                </div>
+                <div class="col-12">
+                    <h2 class="text-center text-dark">Popular Products</h2>
+                </div>
+                <!--cards-->
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header text-center text-light bg-primary">
+                            <h3>Organic Kiwi</h3>
+                        </div>
+                        <div class="card-body">
+                          <img src="https://www.yudaah.com/demo/organic-agri/images/products/img-6.jpg" id="card-img-1">
+                        </div>
+                        <div class="card-footer p-0 m-1">
+                            <p class="text-center">$4.5/Kg</p> 
+                            <ul class="text-center">
+                                <i class="fa-solid fa-star text-warning " ></i> 
+                                <i class="fa-solid fa-star  text-warning"></i> 
+                                <i class="fa-solid fa-star  text-warning"></i>
+                                <i class="fa-solid fa-star  text-warning"></i> 
+                            </ul>
+                <button class="btn btn-outline-success p-2" style="margin-left:40%;border-radius:0px ;margin-right: 10px;font-weight: bold;font-size: 15px;" <span><i class="fa-solid fa-bag-shopping" style="margin-left: 10px; margin-right: 10px;;"></i></span>ADD</button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header text-center bg-success">
+                          <h3>Organic Strawberry</h3>
+                        </div>
+                        <div class="card-body">
+                       <img src="https://www.yudaah.com/demo/organic-agri/images/products/img-2.jpg" id="card-img-2">
+                        </div>
+                        <div class="card-footer p-0 m-1">
+                         <p class="text-center">$3.5/Kg</p> 
+                         <ul class="text-center">
+                            <i class="fa-solid fa-star text-warning " ></i> 
+                            <i class="fa-solid fa-star  text-warning"></i> 
+                            <i class="fa-solid fa-star  text-warning"></i> 
+                            <i class="fa-solid fa-star  text-warning"></i> 
+                            <i class="fa-solid fa-star  text-warning"></i> 
+                        </ul>
+                <button class="btn btn-outline-success p-2" style="margin-left:40%;border-radius:0px ;margin-right: 10px;font-weight: bold;font-size: 15px;" <span><i class="fa-solid fa-bag-shopping" style="margin-left: 10px; margin-right: 10px;;"></i></span>ADD</button>
+                        
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card">
+                        <div class="card-header text-center bg-warning">
+                            <h3>Organic Carrot</h3>
+                        
+                        </div>
+                        <div class="card-body">
+                            <img src="https://www.yudaah.com/demo/organic-agri/images/products/img-4.jpg" id="card-img-3">
+
+                        </div>
+                        <div class="card-footer p-0 m-1">
+                            <p class="text-center">$7.2/Kg</p> 
+                            <ul class="text-center">
+                                <i class="fa-solid fa-star text-warning " ></i> 
+                                <i class="fa-solid fa-star  text-warning"></i> 
+                                <i class="fa-solid fa-star  text-warning"></i> 
+                                <i class="fa-solid fa-star  text-warning"></i> 
+                                <i class="fa-solid fa-star  text-warning"></i> 
+                            </ul>
+                 <button class="btn btn-outline-success p-2" style="margin-left:40%;border-radius:0px ;margin-right: 10px;font-weight: bold;font-size: 15px;" <span><i class="fa-solid fa-bag-shopping" style="margin-left: 10px; margin-right: 10px;;"></i></span>ADD</button>
+                  </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--5.how it works-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 mt-5 mb-5">
+                    <h3 class="text-center text-danger">HOW It WORKS??</h3>
+                </div>
+                <div class="col-6">
+                <img src="https://www.yudaah.com/demo/organic-agri/images/Main-about1.svg" class="img-fluid w-25 mt-3">
+                <h5 class="mt-2 text-secondary font-weight-bold">Pick the Right Box Style for You</h5>
+                <p class="text-justify">Fusce viverra convallis commodo. Aenean iaculis urna ac urna bibendum pharetra. Pellentesque habitant</p>
+                 <br>
+                 <img src="https://www.yudaah.com/demo/organic-agri/images/Main-about2.svg" class="img-fluid w-25 mt-3">
+                <h5 class="mt-2 text-secondary font-weight-bold">Customize your Products</h5>
+                <p class="text-justify">Fusce viverra convallis commodo. Aenean iaculis urna ac urna bibendum pharetra. Pellentesque habitant</p>
+                <br>
+                 <img src="https://www.yudaah.com/demo/organic-agri/images/Main-about3.svg" class="img-fluid w-25 mt-3">
+                <h5 class="mt-2 text-secondary font-weight-bold">We Deliver on your Door Steps</h5>
+                <p class="text-justify">Fusce viverra convallis commodo. Aenean iaculis urna ac urna bibendum pharetra. Pellentesque habitant</p>
+                 </div>
+                <div class="col-6">
+                    <br><br><br><br><br>
+                 <h2 class="text-justify mt-3">Organic Produce<br>
+                    Deliver to your Door</h2>
+                    <img src="https://www.yudaah.com/demo/organic-agri/images/organic.jpg" class="w-100 mt-2 border-warning">
+                </div>
+            </div>
+        </div>
+        <!----6.footer-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 mt-5 bg-success pl-2 pt-2" style="border-bottom-left-radius:10px ;">
+                    <i class="fa-solid fa-location-dot d-inline-block" style="font-size: 25px;"></i>
+                    <h3 class="d-inline-block text-center">Coimbatore, Tamilnadu</h3>
+                    <p >1010 Grand Revenue</p>
+                </div>
+                <div class="col-4 mt-5 bg-success pl-2 pt-2">
+                    <i class="fa-solid fa-phone d-inline-block"  style="font-size: 25px;"></i>
+                    <h3 class="d-inline-block text-center">Contact Info:</h3>
+                    <p >+91-785346231</p>
+                </div>
+                <div class="col-4 mt-5 bg-success pl-2 pt-2" style="border-bottom-right-radius:10px ;">
+                    <i class="fa-solid fa-envelope d-inline-block"  style="font-size: 25px;"></i>
+                    <h3 class="d-inline-block text-center">Email US at </h3>
+                    <p >mitasha@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row bg-dark">
+                <div class="col-4 pt-3">
+                    <p class="text-justify text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores nam odio eaque molestiae aspernatur assumenda ratione accusamus quas distinctio quisquam.</p>
+                    <br>
+                    <p class="text-justify text-light">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores nam odio eaque molestiae aspernatur assumenda ratione accusamus quas distinctio quisquam.</p>
+                    
+                </div>
+                <div class="col-4 pt-3">
+                    <h4 class="text-light ml-5" >Useful Links</h4>
+                    <ul type="none" class="text-light float-left">
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Home</li>
+                        <br>
+                        <i class="fa-solid fa-arrow-left "></i>
+                        <li class="d-inline-block">Services</li> 
+                        <br>
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Contact Us</li>
+                        <br>
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Primary</li>
+                        <br>
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Services</li>
+                    </ul>
+                    <ul type="none" class="text-light float-left">
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Home</li>
+                        <br>
+                        <i class="fa-solid fa-arrow-left "></i>
+                        <li class="d-inline-block">Services</li> 
+                        <br>
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Contact Us</li>
+                        <br>
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Primary</li>
+                        <br>
+                        <i class="fa-solid fa-arrow-left d-inline-block"></i>
+                        <li class="d-inline-block">Services</li>
+                    </ul>
+                </div>
+                <div class="col-4 mt-3">
+                    <h4 class="text-light text-center">Follow Us On</h4>
+                    <ul type="none">
+                        <li><i class="fa-brands fa-facebook " style="font-size: 25px;color:white;margin-top: 5px; margin-left: 100px"></i></li>
+                        <li><i class="fa-brands fa-instagram" style="font-size: 25px;color:white;margin-top: 5px;margin-left: 100px"></i></li>
+                        <li><i class="fa-brands fa-linkedin" style="font-size: 25px;color:white;margin-top: 5px;margin-left: 100px"></i></li>
+                        <li><i class="fa-brands fa-twitter" style="font-size: 25px;color:white;margin-top: 5px;margin-left: 100px"></i></li>
+                        <li><i class="fa-brands fa-whatsapp" style="font-size: 25px;color:white;margin-top: 5px;margin-left: 100px"></i></li>
+                        <li><i class="fa-brands fa-snapchat" style="font-size: 25px;color:white;margin-top: 5px;margin-left: 100px"></i></li>
+                    
+                    </ul>
+                </div>
+
+
+</body>
+</html>

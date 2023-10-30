@@ -1,0 +1,33 @@
+
+        #nav-img{
+            width:50px;
+            height:50px;
+            padding: 0px;
+
+        }
+        #navbar-med{
+        display:inline-block;
+        margin-left: 10px;
+        padding:0px;
+        }
+        #navbar-med li{
+        display:inline-block;
+        }
+        #nav-btn{
+            width:110px;
+
+        }
+        #card-img-1{
+            height:90%;
+            width:100%;
+        }
+        #card-img-2{
+            height:90%;
+            width:100%;
+        }
+        #card-img-3{
+            height:90%;
+            width:100%;
+        }
+       
+        
